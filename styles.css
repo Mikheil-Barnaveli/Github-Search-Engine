@@ -22,6 +22,9 @@ header{
     max-width: 730px;
     width: 100%;
 }
+#logo{
+    color: #222731;
+}
 #dark-light-button{
     font-weight: 700;
     color: #697C9A;
@@ -50,7 +53,7 @@ header{
     padding-block: 0.5rem;
     padding-inline: 1rem;
     box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-border-radius: 15px;
+    border-radius: 15px;
 }
 #error{
     font-size: 1rem;
@@ -98,7 +101,7 @@ border-radius: 15px;
     border-radius: 10px;
     padding-inline: 2.5rem;
     padding-block: 2rem;
-     display: none; /* <-- change this later*/
+     display: none;
     justify-content: space-between;
 }
 #profile-pic{
@@ -125,9 +128,8 @@ border-radius: 15px;
 #basic-info{
     width: 80%;
     height: 100%;
-    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-border-radius: 15px;
-display: flex;
+    border-radius: 15px;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
@@ -148,13 +150,11 @@ display: flex;
    
 }
 #user-name{
-    /* height: 50%; */
     width: 50%;
     font-size: 1.6rem;
     color: #2B3442;
 }
 #login-name{
-    /* height: 50%; */
     width: 50%;
     font-size: 1rem;
     text-align: center;
@@ -162,7 +162,6 @@ display: flex;
     text-align: left;
 }
 #joined-date{
-    /* height: 50%; */
     width: 50%;
     color: #697C9A;
     text-align: right;
@@ -278,7 +277,7 @@ display: flex;
         padding-block: 0.5rem;
         padding-inline: 1rem;
         box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-    border-radius: 15px;
+        border-radius: 15px;
     }
     #error{
         font-size: 1rem;
@@ -326,7 +325,6 @@ display: flex;
         border-radius: 10px;
         padding-inline: 2.5rem;
         padding-block: 2rem;
-        /* display: flex;  <-- change this later*/
         justify-content: space-between;
     }
     #profile-pic{
@@ -338,7 +336,7 @@ display: flex;
     #profile-pic2{
         display: flex;
         height: 100%;
-        width: 30%;
+        width: fit-content;
         border-radius: 50%;
     }
     #profile-picture{
@@ -354,10 +352,8 @@ display: flex;
     #basic-info{
         width: 100%;
         height: 100%;
-
-        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-    border-radius: 15px;
-    display: flex;
+        border-radius: 15px;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -375,18 +371,15 @@ display: flex;
         display: flex;
         width: 100%;
         height: 40%;
-
-         justify-content: space-between;
+        justify-content: space-between;
        
     }
     #user-name{
-        /* height: 50%; */
         width: 100%;
         font-size: 1.6rem;
         color: #2B3442;
     }
     #login-name{
-        /* height: 50%; */
         width: 100%;
         font-size: 1rem;
         text-align: center;
@@ -400,7 +393,6 @@ display: flex;
         order: 2;
     }
     #joined-date{
-        /* height: 50%; */
         width: 100%;
         color: #697C9A;
         text-align: left;
@@ -521,7 +513,7 @@ display: flex;
         padding-block: 0.5rem;
         padding-inline: 1rem;
         box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-    border-radius: 15px;
+        border-radius: 15px;
     }
     #error{
         font-size: 1.5rem;
@@ -569,7 +561,6 @@ display: flex;
         border-radius: 10px;
         padding-inline: 2.5rem;
         padding-block: 2rem;
-         display: flex; /* <-- change this later*/
         justify-content: space-between;
     }
     #profile-pic{
@@ -581,7 +572,7 @@ display: flex;
     #profile-pic2{
         display: flex;
         height: 100%;
-        width: 30%;
+        width: fit-content;
         border-radius: 50%;
     }
     #profile-picture{
@@ -597,10 +588,8 @@ display: flex;
     #basic-info{
         width: 100%;
         height: 100%;
-
-        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-    border-radius: 15px;
-    display: flex;
+        border-radius: 15px;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -608,7 +597,7 @@ display: flex;
     }
     #profile-information{
         display: flex;
-        width: 65%;
+        width: 55%;
         height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
@@ -619,8 +608,7 @@ display: flex;
         display: flex;
         width: 100%;
         height: 25%;
-
-         justify-content: space-between;
+        justify-content: space-between;
        
     }
     #user-name{
@@ -713,9 +701,9 @@ display: flex;
         font-weight: 400;
     }
     .link-text2{
-    order: 2;
+        order: 2;
     }
     .link-text3{
-    order: 1;
+        order: 1;
     }
     }
