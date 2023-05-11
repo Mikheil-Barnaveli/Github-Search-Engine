@@ -171,6 +171,7 @@ header{
     width: 100%;
     max-height: 20%;
     height: 20%;
+    color: #4B6A9B;
 }
 
 #followers-info{
@@ -400,8 +401,12 @@ header{
     
     #user-bio{
         width: 100%;
-        max-height: 20%;
-        height: 10%;
+        max-height: 30%;
+        height: 20%;
+        color: #4B6A9B;
+        text-align:start;
+        font-size: 1rem;
+        padding-block: 10px;
     }
     
     #followers-info{
@@ -638,8 +643,12 @@ header{
     
     #user-bio{
         width: 100%;
-        min-height: 0;
+        min-height: 20%;
         max-height: 30%;
+        color: #4B6A9B;
+        text-align:start;
+        font-size: 2rem;
+        padding-block: 10px;
     }
     
     #followers-info{

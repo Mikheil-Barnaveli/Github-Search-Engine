@@ -87,6 +87,9 @@ axios
     if(data.login == null){
         userName.replaceWith(loginName)
     }
+    if(data.bio == null){
+        userBio.textContent = "This user doesn't have a Bio"
+    }
 }).catch((error) => {
     userInfo.style.display = 'none'
     errorAlert.style.display = 'block'
